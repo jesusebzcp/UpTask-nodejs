@@ -1,0 +1,26 @@
+{
+  "name": "uptask",
+  "version": "1.0.0",
+  "description": "Proyecto UpTask con Nodej y MVC",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusebzcp/Uptask.git"
+  },
+  "author": "Jesus briceno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesusebzcp/Uptask/issues"
+  },
+  "homepage": "https://github.com/jesusebzcp/Uptask#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}

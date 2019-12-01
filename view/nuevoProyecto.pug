@@ -1,0 +1,15 @@
+extends masterPage
+
+
+block contenido
+    .contenido-principal
+        h1 Nuevo Proyecto
+
+        each error in errores
+            .alerta= error.texto
+        form.agregar-proyecto(action='/nuevo-Proyecto' method="POST" )
+            .campo
+                label(for="nombre") Nombre Proyecto
+                input#nombre(type="text" name="nombre" placeholder="Nombre Poryecto") 
+            .campo.enviar
+                    input.boton(type="submit" style="color:white" value="Agregar")
